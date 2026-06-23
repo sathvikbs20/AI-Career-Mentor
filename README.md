@@ -1,164 +1,205 @@
-# AI Career Mentor Chatbot
+# AI Career Mentor 🚀
 
-## Overview
-
-AI Career Mentor is an LLM-powered chatbot built using **Python, Flask, Google Gemini API, SQLite, HTML, CSS, and JavaScript**. The chatbot helps students with career guidance, interview preparation, resume analysis, programming questions, and AI-related topics.
-
-This project was developed as part of the **Build Your Own LLM Powered AI Chatbot** challenge.
+An AI-powered Career Mentor chatbot built using **Python**, **Flask**, **Google Gemini API**, **SQLite**, **HTML**, **CSS**, and **JavaScript**. The application provides career guidance, interview preparation, resume analysis, and programming assistance through a modern conversational interface.
 
 ---
 
-# Features
+## 📌 Project Overview
 
-* AI-powered chatbot using Google Gemini
-* Streaming AI responses
-* Multi-turn conversations
-* Conversation history
-* New Chat functionality
-* Resume PDF upload and analysis
-* SQLite database for storing chats
-* Markdown formatted responses
-* Modern responsive user interface
+AI Career Mentor is a web-based chatbot that helps students and job seekers with:
 
----
+- Career guidance
+- Resume analysis
+- Interview preparation
+- Programming assistance
+- AI and Machine Learning learning support
+- Web Development guidance
+- Personalized career recommendations
 
-# Technologies Used
-
-* Python
-* Flask
-* Google Gemini API
-* SQLite
-* HTML5
-* CSS3
-* JavaScript
-* PyPDF2
-* Flask-SQLAlchemy
+The application uses Google's Gemini Large Language Model (LLM) to generate intelligent responses in real time.
 
 ---
 
-# Project Structure
+## ✨ Features
+
+- 🤖 AI-powered chatbot using Google Gemini API
+- 💬 Real-time streaming responses
+- 📄 Resume PDF upload and AI analysis
+- 📝 Conversation history management
+- ➕ Start multiple conversations
+- 🗑️ Clear chat functionality
+- 📱 Responsive user interface
+- 💾 SQLite database integration
+- ⚡ Fast and lightweight Flask backend
+
+---
+
+## 🛠️ Tech Stack
+
+### Backend
+
+- Python
+- Flask
+- Flask-SQLAlchemy
+- SQLite
+- Google Gemini API
+- PyPDF2
+
+### Frontend
+
+- HTML5
+- CSS3
+- JavaScript
+- Marked.js
+
+### Tools
+
+- Git
+- GitHub
+- VS Code
+
+---
+
+## 📂 Project Structure
 
 ```
 AI_Career_Mentor/
 │
 ├── app.py
 ├── requirements.txt
+├── README.md
+├── .gitignore
 ├── .env
-│
-├── templates/
-│   └── index.html
 │
 ├── static/
 │   ├── style.css
 │   └── script.js
 │
+├── templates/
+│   └── index.html
+│
 ├── uploads/
 │
-├── instance/
-│   └── chat.db
-│
-└── README.md
+└── instance/
+    └── chat.db
 ```
 
 ---
 
-# Installation
+## 🚀 Installation
 
-## 1. Clone the Repository
+### Clone the repository
 
-```
-git clone https://github.com/yourusername/AI_Career_Mentor.git
-```
-
-## 2. Navigate to the Project Folder
-
-```
-cd AI_Career_Mentor
+```bash
+git clone https://github.com/sathvikbs20/AI-Career-Mentor.git
 ```
 
-## 3. Create a Virtual Environment
+### Move into the project
 
-Windows
-
+```bash
+cd AI-Career-Mentor
 ```
+
+### Create virtual environment
+
+```bash
 python -m venv venv
 ```
 
-Activate the virtual environment
+### Activate virtual environment
 
-```
+Windows
+
+```bash
 venv\Scripts\activate
 ```
 
-## 4. Install Dependencies
+### Install dependencies
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
-## 5. Configure Environment Variables
+### Configure Environment Variables
 
 Create a `.env` file.
 
-Add your Gemini API key:
-
-```
+```text
 GEMINI_API_KEY=YOUR_API_KEY
 ```
 
-## 6. Run the Application
+### Run the application
 
-```
+```bash
 python app.py
 ```
 
-The application will automatically open in your browser.
+Open your browser:
+
+```
+http://127.0.0.1:5000
+```
 
 ---
 
-# How to Use
+## 📷 Application Features
 
-1. Launch the application.
-2. Click **New Chat** to start a conversation.
-3. Ask career-related or programming questions.
-4. Upload a PDF resume for AI analysis.
-5. View previous conversations from the sidebar.
-6. Clear the chat when required.
-
----
-
-# Sample Questions
-
-* How can I become a Python Developer?
-* Explain Machine Learning.
-* Help me prepare for an interview.
-* Review my resume.
-* Suggest projects for beginners.
+- AI Chat Interface
+- Resume Upload & Analysis
+- Conversation History
+- Multiple Chat Sessions
+- Career Guidance
+- Programming Assistance
+- Interview Preparation
 
 ---
 
-# Future Improvements
+## 💡 Skills Demonstrated
 
-* User Authentication
-* Voice Input
-* Export Chat
-* AI Generated Conversation Titles
-* Dark/Light Theme
+- Python Programming
+- Flask Web Development
+- REST API Development
+- Google Gemini API Integration
+- Prompt Engineering
+- SQLite Database Design
+- Object-Oriented Programming
+- HTML, CSS, JavaScript
+- Responsive UI Design
+- Git & GitHub Version Control
 
 ---
 
-# Author
+## 🎯 Future Enhancements
+
+- User Authentication
+- Voice Assistant
+- Dark/Light Theme
+- Export Chat to PDF
+- AI-generated Chat Titles
+- Job Recommendation System
+- Email Notifications
+- Cloud Deployment
+
+---
+
+## 📈 ATS Keywords
+
+Python • Flask • Google Gemini API • Large Language Model (LLM) • Artificial Intelligence • Machine Learning • Chatbot • REST API • SQLite • SQLAlchemy • HTML • CSS • JavaScript • Git • GitHub • Resume Analyzer • Career Guidance • Prompt Engineering • Backend Development • Web Development
+
+---
+
+## 👨‍💻 Author
 
 **Sathvik B S**
 
 MCA Student
 
-Presidency University, Bengaluru
+Python Developer | AI Enthusiast | Software Engineer Aspirant
 
-[sathvikbs20@gmail.com](mailto:sathvikbs20@gmail.com)
+GitHub: https://github.com/sathvikbs20
 
 ---
 
-# License
+## ⭐ Support
 
-This project is developed for educational and learning purposes.
+If you found this project helpful, please consider giving it a ⭐ on GitHub.
